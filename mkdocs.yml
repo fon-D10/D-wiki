@@ -29,12 +29,12 @@ theme:
     - navigation.tabs #Под вопросом
     - navigation.footer
 
-  markdown_extensions:
-    - admonition # Блоки !!! note, !!! warning
-    - pymdownx.details # Сворачиваемые блоки
-    - pymdownx.superfences # Вложенные блоки кода
-    - pymdownx.tabbed: # Табы
-        alternate_style: true
+markdown_extensions:
+  - admonition # Блоки !!! note, !!! warning
+  - pymdownx.details # Сворачиваемые блоки
+  - pymdownx.superfences # Вложенные блоки кода
+  - pymdownx.tabbed: # Табы
+      alternate_style: true
 
 nav:
   - 📖Главная: index.md
