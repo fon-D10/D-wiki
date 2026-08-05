@@ -1,0 +1,59 @@
+site_name: D-wiki
+site_description: Wiki локального сообщества Поколение D
+site_author: M22
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    - scheme: default
+      primary: green # цвет для заголовка, боковой панели, ссылок
+      accent: cyan # цвет для интерактивных элементов (при наведении, кнопки)
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal # цвет для заголовка, боковой панели, ссылок
+      accent: blue # цвет для интерактивных элементов (при наведении, кнопки)
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.top
+    - navigation.instant
+    - content.code.copy
+
+    - navigation.tabs #Под вопросом
+    - navigation.footer
+
+  markdown_extensions:
+    - admonition # Блоки !!! note, !!! warning
+    - pymdownx.details # Сворачиваемые блоки
+    - pymdownx.superfences # Вложенные блоки кода
+    - pymdownx.tabbed: # Табы
+        alternate_style: true
+
+nav:
+  - 📖Главная: index.md
+  - 👋Новичкам:
+    - Что таоке Поколение D?: beginner/what is d.md
+  - 📜История:
+    - О нас: about.md
+  - 👥Личности:
+    - О нас: about.md
+  - 💾Проекты:
+    - О нас: about.md
+  - ✨События:
+    - О нас: about.md
+  - 🍏Мемы:
+    - О нас: about.md
+  - 📚Лор:
+    - О нас: about.md
+  - 📝Документы:
+    - О нас: about.md
+  - 📰Архив:
+    - О нас: about.md
+  - Разработка: razrabotka.md
