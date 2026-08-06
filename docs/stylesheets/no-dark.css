@@ -1,5 +1,19 @@
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: light only;
-  }
+#/* docs/stylesheets/force-light.css */
+:root {
+  color-scheme: light only;
+}
+
+html, body {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.md-default {
+  --md-default-bg-color: #ffffff !important;
+  --md-default-fg-color: #000000 !important;
+}
+
+.md-slate {
+  --md-slate-bg-color: #ffffff !important;
+  --md-slate-fg-color: #000000 !important;
 }
