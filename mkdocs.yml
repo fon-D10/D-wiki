@@ -7,18 +7,18 @@ theme:
   logo: assets/logo.png
   favicon: assets/logo.png
   palette:
-    - scheme: default
-      primary: green # цвет для заголовка, боковой панели, ссылок
-      accent: cyan # цвет для интерактивных элементов (при наведении, кнопки)
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
+    - scheme: slate #Тёмная тема
       primary: teal # цвет для заголовка, боковой панели, ссылок
       accent: blue # цвет для интерактивных элементов (при наведении, кнопки)
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+    - scheme: default #Светлая тема
+      primary: green # цвет для заголовка, боковой панели, ссылок
+      accent: cyan # цвет для интерактивных элементов (при наведении, кнопки)
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
   features:
     - search.suggest
     - search.highlight
