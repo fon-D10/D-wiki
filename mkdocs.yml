@@ -35,6 +35,10 @@ markdown_extensions:
   - pymdownx.superfences # Вложенные блоки кода
   - pymdownx.tabbed: # Табы
       alternate_style: true
+	  
+extra_css:
+  - stylesheets/no-dark.css
+
 
 nav:
   - 📖Главная: index.md
